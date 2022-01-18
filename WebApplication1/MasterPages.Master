@@ -1,0 +1,106 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPages.Master.cs" Inherits="WebApplication1.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pixeden-stroke-7-icon@1.2.3/pe-icon-7-stroke/dist/pe-icon-7-stroke.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/oder.css">
+</head>
+<body>
+<!-- begin header -->
+        <header>
+        <!-- sidebar -->
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="./index.html">Đơn Hàng</a>
+            <a href="./page/checkoder.html">Kiểm tra đơn hàng</a>
+            <a href="./page/statistical.html">Thống Kê</a>
+        </div>
+    </header>
+<!-- end header -->
+
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+
+    <!-- begin footer -->
+        <footer class="text-center text-lg-start bgr_1 text-muted">
+                <!-- Section: Links  -->
+              <section class="bgr_1">
+                    <div class="container text-center text-md-start mt-5">
+                        <!-- Grid row -->
+                        <div class="row mt-3">
+
+                            <!-- Grid column -->
+                            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold mb-4">
+                                    CHĂM SÓC KHÁCH HÀNG
+                                </h6>
+                                <p>
+                                    <a href="#!" class="text-reset">Hướng dẫn mua hàng</a>
+                                </p>
+                                <p>     
+                                    <a href="#!" class="text-reset"> Trả hàng/Hoàn tiền</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-reset">Thanh toán</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-reset">Vận chuyển</a>
+                                </p>
+                            </div>
+                            <!-- Grid column -->
+
+                            <!-- Grid column -->
+                            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold mb-4">
+                                    Tải app trên
+                                </h6>
+                                <p>
+                                    <a href="#!" class="text-reset">CH Play</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-reset">Apple Store</a>
+                                </p>
+                            </div>
+                            <!-- Grid column -->
+
+                            <!-- Grid column -->
+                            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold mb-4">
+                                    Liên Hệ với chúng tôi
+                                </h6>
+                                <p><i class="fas fa-home me-3"></i> Đại Học Vinh, Nghệ An</p>
+                                <p>
+                                    <i class="fas fa-envelope me-3"></i> caohuy377@gmail.com
+                                </p>
+                                <p><i class="fas fa-phone me-3"></i> 098738742</p>
+                                <p><i class="fas fa-print me-3"></i> 097872383</p>
+                            </div>
+                            <!-- Grid column -->
+                        </div>
+                        <!-- Grid row -->
+                    </div>
+                </section>
+                <!-- Section: Links  -->
+
+                <!-- Copyright -->
+                <div class="text-center p-4" style="background-color: #EF8030;">
+                    © 2021 Copyright:
+                    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Nhóm 2</a>
+                </div>
+                <!-- Copyright -->
+    </footer>
+   <!-- end footer -->
+</body>
+</html>
